@@ -7,7 +7,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters
 
 # ✅ Load environment variables
 load_dotenv()
-TOKEN = os.getenv("7537226110:AAEiwFnCn3T7B4BJZ1-bx7QxDDmZ9twLpEc")
+TOKEN = os.getenv("7537226110:AAFS04fstburC0tU7FmGTAU49BO2N3Cw_SI")
 
 # ✅ Initialize Flask
 app = Flask(__name__)
