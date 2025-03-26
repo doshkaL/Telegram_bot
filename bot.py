@@ -88,7 +88,7 @@ if __name__ == "__main__":
 
     # Flask app listens on PORT provided by Render
     port = int(os.environ.get("PORT", 5000))  # Default to 5000 if not set
-    Thread(target=lambda: app.run(host="0.0.0.0", port=port)).start()
+    Thread(target=lambda: app.run(host="0.0.0.0", port="PORTO")).start()
 
     # Running Telegram bot
     asyncio.run(bot_app.run_polling())
